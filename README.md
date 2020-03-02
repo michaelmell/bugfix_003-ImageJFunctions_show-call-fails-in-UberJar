@@ -4,7 +4,7 @@ To run do:
  
  ```
 ./deploy
-java -jar target/ImageJFunctions_show__failure_minimal_example-1.0-SNAPSHOT.jar
+java -jar target/ImageJFunctions_show__failure_minimal_example-1.0-SNAPSHOT.jar /PATH/TO/THIS/GIT/REPOSITORY/test_image.tif
 ```
 
 It should fail with:

@@ -9,12 +9,11 @@ import java.io.IOException;
 
 public class main {
     public static void main(String[] args) {
-        String imageFile = new File("").getAbsolutePath() + "/src/main/resources/probabilities_watershedding_000.tif";
-
+        String imageFile = args[0];
         ImageJ ij = new ImageJ();
         try {
             Img input = (Img) ij.io().open(imageFile);
-            ImagePlus imp = ImageJFunctions.show(input);
+            ImageJFunctions.show(input);
         }
         catch (IOException e) {
             e.printStackTrace();
