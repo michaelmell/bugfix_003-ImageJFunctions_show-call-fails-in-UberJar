@@ -3,8 +3,10 @@ A minimal example of a failing call to ImageJFunctions.show() from a shaded Uber
 To run do:
  
  ```
+cd /PATH/TO/GIT_REPO
+mvn clean
 ./deploy
-java -jar target/ImageJFunctions_show__failure_minimal_example-1.0-SNAPSHOT.jar /PATH/TO/THIS/GIT/REPOSITORY/test_image.tif
+java -jar target/ImageJFunctions_show__failure_minimal_example-1.0-SNAPSHOT.jar test_image.tif
 ```
 
 It should fail with:
