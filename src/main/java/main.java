@@ -1,10 +1,6 @@
-//import ij.ImageJ;
 import net.imagej.ImageJ;
 import net.imglib2.img.Img;
 import net.imglib2.img.display.imagej.ImageJFunctions;
-import ij.ImagePlus;
-
-import java.io.File;
 import java.io.IOException;
 
 public class main {
